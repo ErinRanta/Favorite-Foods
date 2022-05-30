@@ -4,9 +4,10 @@ body
 
 }
 
-header 
-{background-color: rgb(128, 77, 77);
-    border: solid; color: black: 4px;
+ 
+  header {
+    background-color: purple;
+    border: solid 3px black;
     padding: 0px;
     margin: 0px;
 }
@@ -48,22 +49,32 @@ nav
 a href
 {
     text-align: center;
-}
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+      }
+    
+
 
 h2
     {color:black;
     text-align: center;
+    align-items: center;
 
 
 }
 
+  
+
 li
 {text-align: center;
+    list-style-type: none;
     color: black;
     font-size: x-large;
 
 
 }
+
 
 
 
@@ -122,4 +133,10 @@ h4
 
 
 
+
+
+        
+
+    
+    
 
