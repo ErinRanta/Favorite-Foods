@@ -14,12 +14,11 @@ body
 
 
 
-
-
-
 h1
 {
-text-align: center;
+ text-align: center;
+ margin-left: 50%;
+ margin-right: 50%;
 
 
 }
@@ -44,7 +43,9 @@ nav
     margin-left: 0px;
     margin-right: 0px;
     
+    
 }
+
 
 a href
 {
@@ -54,14 +55,7 @@ a href
         padding: 0;
       }
     
-/* Centered section inside the top navigation */
-.topnav-centered a {
-    float: none;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
+
 
 h2
     {color:black;
@@ -70,7 +64,11 @@ h2
 
 
 }
-
+  a2
+    {
+    color: black
+     center;
+}
   
 
 li
@@ -114,10 +112,16 @@ margin-bottom: 40px;
 }
 
 h4
-{text-align: left;
+{text-align: center;
 
 
 
+}
+
+.avocado-pic{
+    width: 50px;
+    height: 50px;
+    
 }
 
    

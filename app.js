@@ -8,10 +8,11 @@
 
 
 
+
 function askFood() {
 favoriteFood = prompt("What is your favorite food?")
 console.log(favoriteFood);
-document.write(favoriteFood + " is " + " yummy " + " but " + " nachos " + " are " + " better! ");
+document.write(favoriteFood + " are " + " yummy " + " but " + " nachos " + " are " + " better! ");
 
 }
 
@@ -32,15 +33,32 @@ function customMessage(){
          document.write(message);
      }
 
-        }
+       
+    
+    
+    
+    
+    
+    
+    }
+        function ratePage(){
+            let userNumber = prompt("How many avocados would you rate my page? 1-4");
+            for (let i = 1; i <= userNumber; i++){
+                document.write("<img class = 'avocado-pic' src='avocado.jpg' />");
+            }
+        }  
+            ratePage();     
+
+
+
 
         
     
 customMessage();
 askFood();
     
-    
-        
+
+
     
 
 
