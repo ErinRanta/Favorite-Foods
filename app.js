@@ -25,7 +25,7 @@ function customMessage(){
     if (favoriteFood == "nachos"){
         message = "YUM!"
         document.write(message);
-     } else if (favoriteFood == "tacos") {
+     } else if (favoriteFood == "tacos"){
             message = "ooooooo!";
             document.write(message);
      } else {
@@ -34,29 +34,54 @@ function customMessage(){
      }
 
        
-    
-    
-    
-    
+     function ratePage(){
+        let userNumber = prompt("How many avocados would you rate my page? 1-4");
+        for (let i = 1; i <= userNumber; i++){
+            console.log(userNumber)
+            document.write("<img src='Images/avocado.jpg' />");
+        }
+    }  
+        ratePage();
+
+
+
+
+
+
+
+
+
     
     
     }
-        function ratePage(){
-            let userNumber = prompt("How many avocados would you rate my page? 1-4");
-            for (let i = 1; i <= userNumber; i++){
-                document.write("<img class = 'avocado-pic' src='avocado.jpg' />");
-            }
-        }  
+        
+
+        
+    
+        
+
+
+        
+
+
+
+
+
+            
+userNumber();
+        
+
             ratePage();     
 
 
 
-
+ratePage()
         
     
 customMessage();
-askFood();
-    
+
+
+
 
 
     
